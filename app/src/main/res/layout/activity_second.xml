@@ -11,12 +11,10 @@
         android:id="@+id/button_Back"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
         android:text="Volver"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/goToUrl"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/goToUrl"
         app:layout_constraintTop_toBottomOf="@+id/goToUrl" />
 
@@ -24,21 +22,25 @@
         android:id="@+id/goToUrl"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="276dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="32dp"
         android:text="Ir al Sitio"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="217dp"
         android:layout_height="102dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="text"
-        android:text="BIENVENIDO AL SEGUNDO ACTIVITY"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="85dp" />
+        android:text="@string/Bienvenidos"
+        android:textAlignment="gravity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
