@@ -33,8 +33,7 @@ public class SecondActivity extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                Intent activity = new Intent(SecondActivity.this, MainActivity.class);
-                startActivity(activity);
+                onBackPressed();
             }
         });
 
