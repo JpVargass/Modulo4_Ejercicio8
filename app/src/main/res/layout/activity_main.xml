@@ -11,10 +11,20 @@
         android:id="@+id/button_SecondActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ir a Segunda Actividad"
+        android:text="@string/IrSegundaPantalla"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Salir"
+        app:layout_constraintEnd_toEndOf="@+id/button_SecondActivity"
+        app:layout_constraintStart_toStartOf="@+id/button_SecondActivity"
+        app:layout_constraintTop_toBottomOf="@+id/button_SecondActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

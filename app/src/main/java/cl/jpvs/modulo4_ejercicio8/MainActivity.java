@@ -19,12 +19,20 @@ public class MainActivity extends AppCompatActivity {
 
     private void initListener() {
         Button btnMain = findViewById(R.id.button_SecondActivity);
+        Button btnExit = findViewById(R.id.buttonExit);
 
         btnMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent activity2 = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(activity2);
+            }
+        });
+
+        btnExit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                System.exit(0);
             }
         });
     }

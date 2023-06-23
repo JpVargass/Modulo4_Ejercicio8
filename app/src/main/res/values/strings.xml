@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Modulo4_Ejercicio8</string>
     <string name="Bienvenidos">BIENVENIDOS AL\nSEGUNDO ACTIVITY</string>
+    <string name="Salir">"Salir "</string>
+    <string name="IrSegundaPantalla">Ir a la Segunda Actividad</string>
 
 </resources>
